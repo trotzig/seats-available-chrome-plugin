@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Seats-Available SJ.se",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": ["http://www.sj.se/*"],
+      "js": ["bootstrap.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
